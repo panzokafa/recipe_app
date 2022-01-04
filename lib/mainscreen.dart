@@ -11,6 +11,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.red,
         title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
           children: const [
